@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center px-10 py-5 bg-white shadow-md">
+    <div className="flex justify-between items-center px-4 lg:px-16 md:px-16 py-3 lg:py-3 md:py-3 font-inter bg-transparent  lg:backdrop-blur-2xl md:backdrop-blur-2xl lg:w-full md:w-full lg:top-0 md:top-0 z-50">
       <div className="flex items-center">
         <Logo />
         <div className="hidden md:flex space-x-8 ml-6">
