@@ -12,17 +12,17 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center px-4 lg:px-16 md:px-16 py-3 lg:py-3 md:py-3 font-inter bg-transparent  lg:backdrop-blur-2xl md:backdrop-blur-2xl lg:w-full md:w-full lg:top-0 md:top-0 z-50">
+    <div className="flex justify-between items-center px-4 lg:px-16 md:px-7 py-3 font-inter bg-transparent backdrop-blur-2xl w-full top-0 z-50">
       <div className="flex items-center">
         <Logo />
-        <div className="hidden md:flex space-x-8 ml-6">
+        <div className="hidden md:flex gap-4 lg:gap-9 ml-4 lg:ml-7">
           <h1 className="text-lg font-semibold cursor-pointer">Features</h1>
           <h1 className="text-lg font-semibold cursor-pointer">Pricing</h1>
           <h1 className="text-lg font-semibold cursor-pointer">Careers</h1>
           <h1 className="text-lg font-semibold cursor-pointer">Help</h1>
         </div>
       </div>
-      <div className="hidden md:flex space-x-4">
+      <div className="hidden md:flex gap-4">
         <PlayStore />
         <AppStore />
       </div>
