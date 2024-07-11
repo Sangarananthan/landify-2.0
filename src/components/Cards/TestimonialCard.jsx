@@ -5,9 +5,9 @@ const TestimonialCard = ({ className, logo, content, feedback, person }) => {
     <div className={className}>
       <div className="p-5">{logo}</div>
       <div className="p-5 flex flex-col items-center">
-        <div className="scale-50 mb-[-1rem]">
+        {/* <div className="scale mb-[-1rem]">
           <Quotes />
-        </div>
+        </div> */}
         <div className="flex flex-col gap-4 items-center">
           <p className="text-sm">{content}</p>
           <div className="flex flex-col gap-1 items-center">

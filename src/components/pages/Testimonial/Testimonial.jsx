@@ -20,7 +20,7 @@ const Testimonial = () => {
   return (
     <div className="w-screen h-full p-8 bg-[#d5fafc] relative box-border">
       <div className="flex items-start p-5">
-        <div className="opacity-50 w-7">
+        <div className="opacity-50 w-7 ">
           <Quotes />
         </div>
         <div className="flex flex-col gap-2 z-3 w-full md:w-3/4 lg:w-1/2">
