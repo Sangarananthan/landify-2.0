@@ -2,7 +2,7 @@ import PlayButton from "../../../assets/Icons/PlayButton";
 import { assest } from "../../../assets/assests";
 const Hero = () => {
   return (
-    <div className="relative bg-[#eeeeee] pt-12 flex flex-col lg:flex-row md:flew-row items-center px-6 lg:px-16 font-inter justify-between">
+    <div className="relative px-4 lg:px-28 md:px-16 bg-[#ffffff] pt-12 flex flex-col lg:flex-row md:flew-row items-center font-inter justify-between">
       <div className="relative z-10 text-start w-full lg:w-1/2">
         <h1 className="text-4xl lg:text-6xl md:text-5xl font-bold mb-3 lg:mb:6 md:mb-4">
           The easiest way to manage projects
