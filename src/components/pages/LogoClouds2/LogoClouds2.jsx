@@ -22,13 +22,13 @@ const LogoClouds2 = () => {
       </div>
       <div className="flex items-center justify-center w-full lg:w-1/2 p-4">
         <div className="bg-[#EDE9FE] h-full w-full lg:w-2/3 rounded-b-full p-4">
-          <div className="flex flex-row gap-2 justify-center mb-4">
+          <div className="flex flex-row gap-2 justify-center mb-4 scale-125">
             <Icon1 />
             <Icon2 />
             <Icon3 />
             <Icon4 />
           </div>
-          <div className="flex flex-row gap-2 justify-center">
+          <div className="flex flex-row gap-2 justify-center scale-125">
             <Icon5 />
             <Icon6 />
             <Icon7 />

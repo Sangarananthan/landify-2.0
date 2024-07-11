@@ -7,7 +7,6 @@ import LogoClouds2 from "./components/pages/LogoClouds2/LogoClouds2";
 import Metrics from "./components/pages/Metrics/Metrics";
 import Navbar from "./components/pages/Navbar/Navbar";
 import Testimonial from "./components/pages/Testimonial/Testimonial";
-
 const App = () => {
   return (
     <>
