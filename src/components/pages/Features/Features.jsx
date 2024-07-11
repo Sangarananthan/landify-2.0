@@ -46,7 +46,7 @@ const content = [
 
 const Features = () => {
   return (
-    <div className="w-full flex flex-col gap-10 px-5 lg:px-16 md:px-10 py-10 lg:py-20 md:py-16 items-center">
+    <div className="w-full flex flex-col gap-10 px-7 lg:px-16 md:px-10 py-10 lg:py-20 md:py-16 items-center">
       <div className="flex flex-col text-center w-full lg:w-1/2 md:w-2/3">
         <h1 className="text-4xl lg:text-5xl md:text-4xl font-bold mb-2">
           Tailor-made features

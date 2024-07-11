@@ -9,12 +9,12 @@ const metrics_content = [
   {
     icon: <RobustIcon />,
     number: "10,000+",
-    label: "Users",
+    label: "Downloads per day",
   },
   {
     icon: <LayoutIcon />,
     number: "2 Million",
-    label: "Downloads per day",
+    label: "Users",
   },
   {
     icon: <ComponentIcon />,
@@ -30,16 +30,16 @@ const metrics_content = [
 
 const Metrics = () => {
   return (
-    <div className="w-full flex flex-col md:flex-row lg:flex-row items-center p-10 lg:p-16 font-inter justify-between ">
-      <div className="flex flex-col items-start mb-10">
-        <h1 className="text-4xl lg:text-5xl mb-4 w-full lg:w-3/5 font-bold">
+    <div className=" w-full flex flex-col lg:flex-row md:flex-col px-7 lg:px-12 md:px-7 h-1/3 py-12 lg:py-10 mb-2 gap-7">
+      <div className="flex flex-col items-start w-full lg:w-1/2 md:full">
+        <h1 className="text-4xl lg:text-6xl md:text-5xl font-bold mb-2 lg:mb-4 md:mb-3">
           Our 18 years of achievements
         </h1>
-        <p className="text-base lg:text-lg text-gray-500 font-semibold">
+        <p className="mb-3 lg:mb-6 md:mb-6 text-1xl font-medium">
           With our super powers we have reached this
         </p>
       </div>
-      <div className="flex flex-wrap gap-5 justify-center w-full lg:w-1/2">
+      <div className="flex flex-wrap gap-5 w-full lg:w-1/2">
         {metrics_content.map((card, index) => (
           <MetricsCard
             key={index}
