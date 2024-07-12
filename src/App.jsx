@@ -14,7 +14,7 @@ const App = () => {
       <Hero />
       <LogoClouds1 />
       <Features />
-      {/* <Testimonial /> */}
+      <Testimonial />
       <Metrics />
       <LogoClouds2 />
       <Cta />
