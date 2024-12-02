@@ -24,16 +24,16 @@ const Cta = () => {
           </div>
         </div>
       </div>
-      <div className="w-3/4 flex flex-col md:flex-row lg:flex-row sm:flex-col gap-10 overflow-hidden">
+      <div className="w-full flex flex-col md:flex-row items-center justify-center gap-10 overflow-hidden px-4">
         <img
           src={assest.Mobile}
           alt=""
-          className="relative md:bottom-60 bottom-40 left-0 md:left-5 sm:left-5 "
+          className="w-full max-w-[300px] md:w-1/2 object-contain transform md:-translate-y-20 lg:-translate-y-40"
         />
         <img
           src={assest.Mobile}
           alt=""
-          className="relative md:top-60  top-40 right-0 md:right-5 sm:right-5"
+          className="w-full max-w-[300px] md:w-1/2 object-contain transform md:translate-y-20 lg:translate-y-40"
         />
       </div>
     </div>
